@@ -14,22 +14,14 @@ namespace Latihan_Repository
             {
                 sisa = angka % i;
                 if (sisa == 0)
-                {
                     jumlahbilangan += 1;
-                }
                 else
-                {
                     jumlahbilangan = jumlahbilangan;
-                }
             }
             if (jumlahbilangan > 2)
-            {
-                Console.Write($"Angka {angka} adalah bukan bilangan prima");
-            }
+                Console.Write($"Angka {angka} adalah bukan bilangan prima");          
             else
-            {
                 Console.Write($"Angka {angka} adalah bilangan prima");
-            }
         }
     }
 }
